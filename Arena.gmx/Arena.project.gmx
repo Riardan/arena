@@ -9,6 +9,7 @@
     <sprite>sprites\sprite0</sprite>
     <sprite>sprites\sprite1</sprite>
     <sprite>sprites\sprite2</sprite>
+    <sprite>sprites\sprite3</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\floor_0</background>
@@ -16,11 +17,17 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\script0.gml</script>
+    <script>scripts\wave_0.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\font_0</font>
+  </fonts>
   <objects name="objects">
     <object>objects\hero_0</object>
     <object>objects\wall_part_0</object>
     <object>objects\pit_0</object>
+    <object>objects\timer_0</object>
+    <object>objects\creature_0</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
